@@ -14,8 +14,8 @@ def percent_coin(first: str, second: str) -> float:
 
 
 # Чтение таблиц
-analyze_df = pd.read_excel('/home/buda/analyze.xlsx')
-list_owner_df = pd.read_excel('/home/buda/list_owner.xlsx')
+analyze_df = pd.read_excel('путь до локальной таблицы')
+list_owner_df = pd.read_excel('путь до локальной таблицы')
 
 
 analyze_df['Процент_совпадения'] = pd.Series(dtype='float')
